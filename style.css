@@ -3,14 +3,31 @@ html {
     background-color: rgb(229, 238, 244);
 }
 
+.header {
+
+    background-color: rgb(6, 59, 105);
+    height: 9rem;
+}
+
 h1 {
+
     text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.mainnav {
+
+    display: flex;
+    flex-direction: row;
 }
 
 a {
-
+    color: rgb(168, 214, 250);
     margin-left: 1rem;
     margin-right: 1rem;
+    text-decoration: none;
 }
 
 img {
@@ -89,9 +106,9 @@ div {
     color: rgb(11, 89, 167);
 }
 
-.p2:hover{
-    
-     color: darkviolet;
+.p2:hover {
+
+    color: darkviolet;
 }
 
 p:hover {
